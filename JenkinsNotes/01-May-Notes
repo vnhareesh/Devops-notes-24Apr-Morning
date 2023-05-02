@@ -25,13 +25,15 @@ You can go to job → workspace folder to see the files
 
 MAVEN : 
 =========================
-> It is a powerful tool which helps in building, managing and documenting your project
+> It is a build automation  powerful tool which helps in building, managing and documenting your project
 
 > Maven by heart is a plugin based tool
 
 > whenever a maven plugin or command is executed, its output will be stored in folder called target
 
-> It has 2 types of plugins:
+> There are other build tools depending on programming langauge. Like, if programming language is java script then node js, if its python then pie builder is used, if its .net then msbuilder is used.
+
+> Maven has 2 types of plugins:
 
 Core Build plugins:
 
