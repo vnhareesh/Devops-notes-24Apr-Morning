@@ -83,7 +83,7 @@ src/main/java   ==> source code will be present
 src/test/java   ==> test cases will be present
 
 pom.xml   ==> heart of maven project
-
+pom-project object module 
  1. dependencies   ==> tools downloded by developer to write code
  2. plugin information
  3. Repositories ( local, central & remote)
