@@ -25,7 +25,7 @@ You can go to job → workspace folder to see the files
 
 MAVEN : 
 =========================
-> It is a powerful tool which helps in building, managing and documenting your project
+> It is a powerful build automation tool which helps in building, managing and documenting your project
 
 > Maven by heart is a plugin based tool
 
@@ -35,21 +35,20 @@ MAVEN :
 
 Core Build plugins:
 
-Task  						Plugin					GOAL/Commands 	output
+Task  						                  Plugin					GOAL/Commands 	      output
 
-Compile the code  			Compiler				mvn compile		class files
+Compile the code  		        	Compiler				 mvn compile		       class files
 
-execute some Testcases		Surefire				mvn test		test passed/failed status
+execute some Testcases		      Surefire				mvn test		          test passed/failed status
 
-Package the code			package					mvn package     .war file
+Package the code			           package					mvn package         .war file
 
-Clean the previous build	clean					mvn clean		clean up from target folder
-files
+Clean  previous build	file    clean					   mvn clean		            clean up from target folder
 
-Deploy artifact on 			deploy					mvn deploy
-artifactory
 
-install all dependencies	install					mvn install
+Deploy artifact  			          deploy				  	mvn deploy              artifactory
+
+install all dependencies	      install					mvn install
 
 
 In maven multiple goals can be executed together
@@ -62,13 +61,19 @@ Reporting plugins:
 ==============================
 Will always generate reports, and in maven the reports are mostly generated in the format : xml,html,txt
 
-Task  						Plugin					GOAL/Commands 	output
+Task  						     Plugin					       GOAL/Commands 	   output
 
-Code Review					pmd						mvn pmd:pmd		pmd.xml report	
+Code Review					  pmd					       	 mvn pmd:pmd		      pmd.xml report	
 
-test reports				surefire				mvn test		surefire reports - xml,txt
+test reports				  surefire				     mvn test		          surefire reports - xml,txt
 
 Code coverage				JACOCO,sonarqube		mvn sonar:sonar
+
+Note: 
+1. pmd means - programming mistake detector tool. pmd is pluggin used by pmd tool. pmd works for only java programming language. 
+2. If programming language is different then only tool which is common for 26 different programing language is sonar qube which can be used for 
+code reivew and code coverage.
+3. video link for sonar qube - https://github.com/vnhareesh/Devops-notes-24Apr-Morning/edit/main/JenkinsNotes/01-May-Notes#:~:text=SDLC_Model.png-,SonarqubeVideo,-Beta
 
 
 
